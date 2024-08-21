@@ -2,7 +2,7 @@ package demoThuaKe;
 
 public class HinhChuNhat extends HinhHoc {
 	//-----------TÍNH KẾ THỪA----------------
-		//class HinhCHuNhat kế thừa class HinhHoc bằng từ khóa extends, HinhVuong sẽ kế thừa tất cả thuộc tính và phương thức của HinhHoc
+		//class HinhCHuNhat kế thừa class HinhHoc bằng từ khóa extends, HinhChuNhat sẽ kế thừa tất cả thuộc tính và phương thức của HinhHoc
 	private double chieuDai;
 	private double chieuRong;
 	
