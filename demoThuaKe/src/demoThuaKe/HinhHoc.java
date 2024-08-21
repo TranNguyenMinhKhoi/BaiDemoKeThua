@@ -11,8 +11,13 @@ public abstract class HinhHoc {
 		return tenHinh;
 	}
 
-	public void setTenHinh(String tenHinh) {
-		this.tenHinh = tenHinh;
+	public void setTenHinh(String ten) {
+		if( ten!=NULL) {
+			this.tenHinh = ten;
+		}else{
+		sysout("Lỗi tên");	
+		};
+		
 	}
 	
 	public HinhHoc(String tenHinh) {}
