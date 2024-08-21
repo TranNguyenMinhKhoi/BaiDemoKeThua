@@ -10,9 +10,9 @@ public class HinhVuong extends HinhHoc {
 		return canh;
 	}
 
-	public void setCanh(double canh) {
+	public void setCanh(double c) {
 		if (canh > 0) {
-			this.canh = canh;
+			this.canh = c;
 		}else {
 			System.out.println("Lỗi! Cạnh hình vuông phải >0");
 		}
@@ -30,8 +30,8 @@ public class HinhVuong extends HinhHoc {
 
 	public HinhVuong(String tenHinh, double canh) {
 		super(tenHinh);
-		this.tenHinh = tenHinh;
-		this.canh = canh;
+		this.tenHinh = ten;
+		this.canh = c;
 	}
 
 	@Override //------------------Ghi đè------------------
