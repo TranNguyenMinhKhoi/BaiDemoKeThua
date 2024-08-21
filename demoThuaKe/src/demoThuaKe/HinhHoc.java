@@ -12,10 +12,10 @@ public abstract class HinhHoc {
 	}
 
 	public void setTenHinh(String ten) {
-		if( ten!=NULL) {
+		if( ten != NULL) {
 			this.tenHinh = ten;
 		}else{
-		sysout("Lỗi tên");	
+		System.out.println("Lỗi! Tên hình không được rỗng");	
 		};
 		
 	}
